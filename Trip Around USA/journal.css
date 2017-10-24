@@ -1,0 +1,32 @@
+body {
+	font-family: Verdana, Geneva, Arial, san-serif;
+	font-size: small;
+}
+
+@font-face {
+	font-family: 'Emblema One';
+	src:url('fonts/embleone-regular-webfont.eot');
+	src:url('fonts/embleone-regular-webfont.eot?#iefix') format('embedded-opentype'),
+		url('fonts/embleone-regular-webfont.woff') format('woff'),
+		url('fonts/embleone-regular-webfont.ttf') format('truetype'),
+		url('fonts/embleone-regular-webfont.svg') format('svg');
+}
+
+h1,h2 {
+	color: #cc6600;
+	border-bottom: thin dotted #888888;
+}
+
+h1 {
+	font-family: "Emblema One",san-serif;
+	font-size: 220%;
+}
+
+h2{
+	font-size: 130%;
+	font-weight: normal;
+}
+
+blockquote {
+	font-style: italic;
+}
