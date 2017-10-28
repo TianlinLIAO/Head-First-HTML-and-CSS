@@ -33,3 +33,21 @@ h2 {
 	background-repeat: no-repeat;
 	background-position: top left;
 }
+
+@media screen and (min-width: 961px) {
+	#guarantee {
+		margin-right: 250px;
+	}
+}
+
+@media screen and (max-width: 960px) {
+	#guarantee {
+		margin-right: 30px;
+	}
+}
+
+@media print {
+	body {
+		font-family: Times, "Times New Roman", serif;
+	}
+}
